@@ -18,12 +18,12 @@ puts "10 blog posts created"
     title: "Rails #{skill}",
     percent_utilized: 15
     
-    )
-  end
+  )
+end
   
-  puts "5 skills created"
+puts "5 skills created"
   
-  9.times do |portfolio_item|
+9.times do |portfolio_item|
   Portfolio.create!(
     title: "Portfolio title: #{portfolio_item}",
     subtitle: "Ruby on Rails",
@@ -33,7 +33,7 @@ puts "10 blog posts created"
     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     main_image: "http://placehold.it/600x400", 
     thumb_image: "http://placehold.it/350x200"
-    )
+  )
 end
   
-  puts "9 portfolio items created"
+puts "9 portfolio items created"
