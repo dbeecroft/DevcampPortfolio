@@ -1,5 +1,6 @@
 class Portfolio < ApplicationRecord
 <<<<<<< HEAD
+<<<<<<< HEAD
     validates_presence_of :title, :body, :main_image, :thumb_image
 =======
   has_many :technologies
@@ -22,5 +23,7 @@ class Portfolio < ApplicationRecord
     self.thumb_image ||= Placeholder.image_generator(height: '350', width: '200')
   end
 >>>>>>> 9d9375d4f94247d5aa5515154ad5610052c3646c
+=======
+  validates_presence_of :title, :body, :main_image, :thumb_image
+>>>>>>> de56027a934b4ee4efa95f38d5e53232af803044
 end
-
